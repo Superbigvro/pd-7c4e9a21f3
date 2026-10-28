@@ -1,6 +1,6 @@
 # PaperDesk download site
 
-A self-contained static download page for PaperDesk. No build step, no external fonts, no tracking scripts.
+A simple static download page for PaperDesk. No build step, no external fonts, no tracking scripts.
 
 - Live site: https://superbigvro.github.io/pd-7c4e9a21f3/
 - Unlisted repository: https://github.com/Superbigvro/pd-7c4e9a21f3
@@ -23,9 +23,9 @@ Then visit `http://localhost:8080`.
 ## Files
 
 - `index.html` — the landing page.
-- `styles.css` — layout and responsive styles.
-- `site.js` — download link, version, file size, checksum, and reveal animations.
-- `assets/` — app icon and real PaperDesk screenshots.
+- `styles.css` — plain layout and responsive styles.
+- `site.js` — download link, version, file size, checksum, copy button, and footer year.
+- `assets/` — app icon and source screenshots (not embedded on the page).
 - `downloads/PaperDesk-Setup-0.1.0.exe` — the current Windows installer.
 
 ## Update the download
