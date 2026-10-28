@@ -10,7 +10,7 @@ const siteConfig = {
   version: '0.1.0',
   size: '121 MB',
   downloadUrl: 'https://github.com/Superbigvro/pd-7c4e9a21f3/releases/latest/download/PaperDesk-Setup-0.1.0.exe',
-  sha256: '407F4465346F75B87D70151D806C3BB42F9F2066F87D2937D7C1126FF7D4C3D7'
+  sha256: '987EEA401CECD64AB6E8AF84D1924FD43B704E89EFC3735AA32F77BBC857B2C4'
 }
 
 for (const element of document.querySelectorAll('[data-download]')) {
