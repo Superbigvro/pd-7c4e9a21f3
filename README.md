@@ -2,9 +2,13 @@
 
 A self-contained static download page for PaperDesk. No build step, no external fonts, no tracking scripts.
 
-- Live site: https://superbigvro.github.io/paperdesk/
-- Public repository: https://github.com/Superbigvro/paperdesk
-- Installer release: https://github.com/Superbigvro/paperdesk/releases/tag/v0.1.0
+- Live site: https://superbigvro.github.io/pd-7c4e9a21f3/
+- Unlisted repository: https://github.com/Superbigvro/pd-7c4e9a21f3
+- Installer release: https://github.com/Superbigvro/pd-7c4e9a21f3/releases/tag/v0.1.0
+
+## Link-only access
+
+GitHub Free cannot restrict a Pages site or anonymous release downloads to a private audience. This page is unlisted instead: the URL is hard to guess, `robots.txt` disallows crawlers, and the page sends `noindex, nofollow`. Anyone with the URL can download the installer, so treat the link as the access key and do not post it publicly.
 
 ## Preview locally
 
@@ -34,7 +38,7 @@ Then visit `http://localhost:8080`.
 The live page reads `downloadUrl` from `site.js`. The published site points at the GitHub release asset:
 
 ```js
-downloadUrl: 'https://github.com/Superbigvro/paperdesk/releases/latest/download/PaperDesk-Setup-0.1.0.exe'
+downloadUrl: 'https://github.com/Superbigvro/pd-7c4e9a21f3/releases/latest/download/PaperDesk-Setup-0.1.0.exe'
 ```
 
 For a self-contained upload, it can instead use a relative path:
@@ -77,4 +81,4 @@ PaperDesk is released under the Apache License 2.0. See `LICENSE`.
 
 ## Credits
 
-PaperDesk was built and imagined by **zlooocz**.
+PaperDesk was built and imagined by **zlooocz (superbigvro)**.
