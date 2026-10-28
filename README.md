@@ -2,6 +2,10 @@
 
 A self-contained static download page for PaperDesk. No build step, no external fonts, no tracking scripts.
 
+- Live site: https://superbigvro.github.io/paperdesk/
+- Public repository: https://github.com/Superbigvro/paperdesk
+- Installer release: https://github.com/Superbigvro/paperdesk/releases/tag/v0.1.0
+
 ## Preview locally
 
 Open `index.html` directly, or serve the folder:
@@ -27,17 +31,19 @@ Then visit `http://localhost:8080`.
 3. Update the visible checksum in `index.html` if you want it to be present without JavaScript.
 4. Replace the version text in `index.html` if the filename changes.
 
-The live page reads `downloadUrl` from `site.js`. It can stay relative for a self-contained upload:
+The live page reads `downloadUrl` from `site.js`. The published site points at the GitHub release asset:
+
+```js
+downloadUrl: 'https://github.com/Superbigvro/paperdesk/releases/latest/download/PaperDesk-Setup-0.1.0.exe'
+```
+
+For a self-contained upload, it can instead use a relative path:
 
 ```js
 downloadUrl: 'downloads/PaperDesk-Setup-0.1.0.exe'
 ```
 
-Or point it at a release asset or file host:
-
-```js
-downloadUrl: 'https://github.com/OWNER/REPO/releases/latest/download/PaperDesk-Setup.exe'
-```
+The button links in `index.html` also point at the release URL as a no-JavaScript fallback.
 
 ## Publishing
 
