@@ -1,0 +1,17 @@
+{
+  "name": "PaperDesk",
+  "short_name": "PaperDesk",
+  "description": "A free, Word-like desktop word processor for Windows.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f4ec",
+  "theme_color": "#14213d",
+  "icons": [
+    {
+      "src": "assets/paperdesk-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#14213d" />
+    <meta
+      name="description"
+      content="PaperDesk is a free, Word-like desktop word processor for Windows. Write, format, and save real .docx files offline. Export to PDF and print."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="PaperDesk — A familiar word processor. Free to keep." />
+    <meta
+      property="og:description"
+      content="A free desktop word processor for Windows with a familiar ribbon, real .docx files, PDF export, and no account required."
+    />
+    <meta property="og:image" content="assets/paperdesk-editor.png" />
+    <title>PaperDesk — Free Word-like word processor for Windows</title>
+    <link rel="icon" href="assets/paperdesk-icon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="assets/paperdesk-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      document.documentElement.classList.add('js')
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="PaperDesk home">
+          <img src="assets/paperdesk-icon.png" alt="" width="38" height="38" />
+          <span>PaperDesk</span>
+        </a>
+
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="#features">Features</a>
+          <a href="#templates">Templates</a>
+          <a href="#download">Download</a>
+        </nav>
+
+        <a class="header-download" href="#download">
+          Get PaperDesk
+          <span>v<span data-version>0.1.0</span></span>
+        </a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-dot"></span>Free desktop writing for Windows</p>
+          <h1>A familiar<br />word processor.<br /><span class="accent-italic">Free to keep.</span></h1>
+          <p class="hero-lede">
+            Write, format, and save real <strong>.docx</strong> files in a calm, offline desktop workspace. PaperDesk
+            has the ribbon you know and the page you need &mdash; without the account, cloud, or subscription.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="downloads/PaperDesk-Setup-0.1.0.exe" data-download>
+              <span class="button-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 3v12" />
+                  <path d="m7 10 5 5 5-5" />
+                  <path d="M5 21h14" />
+                </svg>
+              </span>
+              <span class="button-copy">
+                <strong>Download for Windows</strong>
+                <span>Version <span data-version>0.1.0</span> &middot; <span data-size>121 MB</span></span>
+              </span>
+            </a>
+            <a class="arrow-link" href="#features">
+              See what&rsquo;s inside
+              <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 10h12" />
+                <path d="m11 5 5 5-5 5" />
+              </svg>
+            </a>
+          </div>
+
+          <ul class="hero-facts" aria-label="Download details">
+            <li>Windows 10 &amp; 11</li>
+            <li>64-bit</li>
+            <li>No account</li>
+            <li>Works offline</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-halo" aria-hidden="true"></div>
+          <figure class="app-window">
+            <div class="window-chrome" aria-hidden="true">
+              <span class="window-dots"><i></i><i></i><i></i></span>
+              <span class="window-title">Project Report &mdash; PaperDesk</span>
+              <span class="window-badge">DESKTOP</span>
+            </div>
+            <div class="window-screen">
+              <img
+                src="assets/paperdesk-editor.png"
+                alt="PaperDesk showing a project report with the Home ribbon, headings, and a table."
+                width="1440"
+                height="900"
+              />
+            </div>
+          </figure>
+
+          <div class="floating-card floating-save">
+            <span class="floating-icon floating-icon-blue" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 4h11l3 3v13H5z" />
+                <path d="M8 4v5h7V4" />
+                <path d="M8 20v-6h8v6" />
+              </svg>
+            </span>
+            <span><strong>Saved locally</strong><small>Project Report.docx</small></span>
+          </div>
+
+          <div class="floating-card floating-private">
+            <span class="floating-icon floating-icon-orange" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3 5 6v5c0 4.4 2.9 7.6 7 10 4.1-2.4 7-5.6 7-10V6z" />
+                <path d="m9 12 2 2 4-4" />
+              </svg>
+            </span>
+            <span><strong>Stays on your PC</strong><small>No cloud. No telemetry.</small></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="proof" aria-label="PaperDesk at a glance">
+        <div class="proof-inner">
+          <div class="proof-item">
+            <strong>.docx</strong>
+            <span>Open &amp; save</span>
+          </div>
+          <div class="proof-item">
+            <strong>PDF</strong>
+            <span>Export &amp; print</span>
+          </div>
+          <div class="proof-item">
+            <strong>Offline</strong>
+            <span>Your files stay local</span>
+          </div>
+          <div class="proof-item">
+            <strong>Free</strong>
+            <span>No account required</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section features" id="features">
+        <div class="section-inner">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">What&rsquo;s inside</p>
+              <h2>The tools you reach for, <span class="accent-italic">right where you expect them.</span></h2>
+            </div>
+            <p class="section-note">
+              PaperDesk is deliberately familiar. The essentials live in the ribbon, the page stays at the center, and
+              your documents stay on your computer.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card reveal">
+              <span class="feature-num" aria-hidden="true">01</span>
+              <div class="feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 7V4h16v3" />
+                  <path d="M9 20h6" />
+                  <path d="M12 4v16" />
+                </svg>
+              </div>
+              <h3>Format without friction</h3>
+              <p>Fonts, sizes, colors, highlights, alignment, indents, and line spacing in a familiar ribbon.</p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-num" aria-hidden="true">02</span>
+              <div class="feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 3h8l4 4v14H6z" />
+                  <path d="M14 3v5h5" />
+                  <path d="M9 13h6M9 17h6" />
+                </svg>
+              </div>
+              <h3>Real .docx files</h3>
+              <p>Open existing Word documents and save your work as a real .docx file, not a locked-in format.</p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-num" aria-hidden="true">03</span>
+              <div class="feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="4" width="18" height="16" rx="2" />
+                  <circle cx="8.5" cy="9" r="1.5" />
+                  <path d="m21 15-4.5-4.5L7 20" />
+                </svg>
+              </div>
+              <h3>Tables, images &amp; links</h3>
+              <p>Drop in the things a document needs. Build a table, place an image, or add a link in seconds.</p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-num" aria-hidden="true">04</span>
+              <div class="feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 3v12" />
+                  <path d="m7 10 5 5 5-5" />
+                  <path d="M5 20h14" />
+                </svg>
+              </div>
+              <h3>PDF &amp; print</h3>
+              <p>Export a fixed-layout PDF or send the page to a Windows printer without leaving the app.</p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-num" aria-hidden="true">05</span>
+              <div class="feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="4" y="3" width="16" height="18" rx="2" />
+                  <path d="M8 8h8M8 12h8M8 16h5" />
+                </svg>
+              </div>
+              <h3>Layouts that fit</h3>
+              <p>Choose Letter or A4, portrait or landscape, margin presets, and 50&ndash;200% zoom.</p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-num" aria-hidden="true">06</span>
+              <div class="feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z" />
+                  <circle cx="12" cy="12" r="2.5" />
+                </svg>
+              </div>
+              <h3>Focus when you need it</h3>
+              <p>Hide the interface, switch on spell check, and let the page take over when the words start flowing.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="templates" id="templates">
+        <div class="templates-inner">
+          <div class="templates-copy reveal">
+            <p class="eyebrow">Start with structure</p>
+            <h2>From blank page to <span class="accent-italic">finished draft.</span></h2>
+            <p>
+              Open a clean page or begin with a layout that already knows what it is doing. Every template is fully
+              editable, and every document can be saved as .docx.
+            </p>
+
+            <ul class="template-pills" aria-label="Included templates">
+              <li>Formal letter</li>
+              <li>Project report</li>
+              <li>Resume</li>
+              <li>Blank page</li>
+            </ul>
+
+            <ul class="check-list">
+              <li>Editable headings, lists, and tables</li>
+              <li>Ready for your own words and details</li>
+              <li>No sign-in or cloud library</li>
+            </ul>
+
+            <a class="arrow-link" href="#download">
+              Download PaperDesk
+              <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 10h12" />
+                <path d="m11 5 5 5-5 5" />
+              </svg>
+            </a>
+          </div>
+
+          <figure class="template-frame reveal">
+            <div class="template-frame-bar" aria-hidden="true">
+              <span class="window-dots"><i></i><i></i><i></i></span>
+              <span>New document</span>
+            </div>
+            <img
+              src="assets/paperdesk-templates.png"
+              alt="PaperDesk's New document screen with Formal letter, Project report, and Resume templates."
+              width="1440"
+              height="520"
+            />
+            <figcaption>Templates that feel like a head start, not a cage.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="download" id="download">
+        <div class="download-orbit download-orbit-one" aria-hidden="true"></div>
+        <div class="download-orbit download-orbit-two" aria-hidden="true"></div>
+
+        <div class="download-inner">
+          <div class="download-copy reveal">
+            <p class="eyebrow eyebrow-light">Download</p>
+            <h2>Take PaperDesk <span class="accent-italic">with you.</span></h2>
+            <p>
+              Free for Windows 10 and 11. Download the installer, keep it for yourself, and pass it along to a friend
+              who needs a quieter place to write.
+            </p>
+
+            <a class="button button-accent" href="downloads/PaperDesk-Setup-0.1.0.exe" data-download>
+              <span class="button-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 3v12" />
+                  <path d="m7 10 5 5 5-5" />
+                  <path d="M5 21h14" />
+                </svg>
+              </span>
+              <span class="button-copy">
+                <strong>Download the installer</strong>
+                <span>Version <span data-version>0.1.0</span> &middot; <span data-size>121 MB</span></span>
+              </span>
+            </a>
+
+            <div class="download-meta" aria-label="Installer details">
+              <span>Windows 10 &amp; 11</span>
+              <span>64-bit</span>
+              <span>Per-user install</span>
+            </div>
+
+            <details class="checksum">
+              <summary>
+                Verify the download
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="m5 8 5 5 5-5" />
+                </svg>
+              </summary>
+              <div class="checksum-body">
+                <span class="checksum-label">SHA-256</span>
+                <code data-sha>26B6F8763107B52AA6BAB2BB92C2D0A7881629480EF52583EF7FC8231BA0A9CB</code>
+                <button class="copy-button" type="button" data-copy-sha>Copy</button>
+              </div>
+            </details>
+          </div>
+
+          <div class="install-card reveal">
+            <p class="install-kicker">Quick start</p>
+            <ol class="install-steps">
+              <li>
+                <strong>Download the installer</strong>
+                <span>Grab <code>PaperDesk-Setup-0.1.0.exe</code> and put it anywhere you like.</span>
+              </li>
+              <li>
+                <strong>Run it and choose Install</strong>
+                <span>The per-user installer does not need administrator access.</span>
+              </li>
+              <li>
+                <strong>Open PaperDesk and write</strong>
+                <span>Find it in the Start menu, then create something worth keeping.</span>
+              </li>
+            </ol>
+
+            <div class="notice">
+              <span class="notice-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 3 3.5 19h17z" />
+                  <path d="M12 9v4" />
+                  <path d="M12 16.5h.01" />
+                </svg>
+              </span>
+              <p>
+                <strong>Windows SmartScreen warning?</strong>
+                This build is unsigned. Choose <strong>More info</strong>, then <strong>Run anyway</strong>.
+              </p>
+            </div>
+
+            <p class="install-footnote">
+              Requires Windows 10 or 11 (64-bit) and about 500&nbsp;MB of free space. No account, no cloud, no
+              telemetry.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about-inner">
+          <div class="credit-mark reveal" aria-hidden="true">
+            <span>Z</span>
+          </div>
+
+          <div class="about-copy reveal">
+            <p class="eyebrow">Behind PaperDesk</p>
+            <h2>Built and imagined by <span class="accent-italic">zlooocz.</span></h2>
+            <p>
+              One idea, one build, and a free desktop word processor made to feel at home on Windows. PaperDesk is
+              independent, local-first, and here to stay out of your way.
+            </p>
+            <p class="legal">
+              PaperDesk is an independent project. It is not affiliated with Microsoft. &ldquo;Word&rdquo; and
+              &ldquo;Microsoft&rdquo; are trademarks of Microsoft Corporation, used here only to describe file
+              compatibility.
+            </p>
+          </div>
+
+          <div class="about-badges reveal" aria-label="PaperDesk principles">
+            <span>Apache 2.0 licensed</span>
+            <span>Local-first</span>
+            <span>Free to use</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <a class="footer-brand" href="#top">
+          <img src="assets/paperdesk-icon.png" alt="" width="26" height="26" />
+          <span>PaperDesk</span>
+        </a>
+
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="#features">Features</a>
+          <a href="#templates">Templates</a>
+          <a href="#download">Download</a>
+          <a href="#about">About</a>
+          <a href="LICENSE">License</a>
+        </nav>
+
+        <p class="footer-copy">&copy; <span data-year>2026</span> PaperDesk. Built by zlooocz.</p>
+      </div>
+    </footer>
+
+    <div class="copy-toast" role="status" aria-live="polite" data-copy-toast>Checksum copied</div>
+
+    <script src="site.js"></script>
+  </body>
+</html>
